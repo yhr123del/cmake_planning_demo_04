@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/build/src",
+  "command": "C:\\Users\\31869\\Desktop\\soft\\MICROS~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/planning_main.dir/includes_CXX.rsp -g -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c \"C:\\Users\\31869\\Desktop\\Robot_Path_ Trajectory\\VS Code+mingw+cmake\\cmake_planning_demo_04\\src\\planning_main.cpp\"",
+  "file": "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/src/planning_main.cpp",
+  "output": "src/CMakeFiles/planning_main.dir/planning_main.cpp.obj"
+},
+{
+  "directory": "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/build/src/pnc_map",
+  "command": "C:\\Users\\31869\\Desktop\\soft\\MICROS~1\\mingw64\\bin\\G__~1.EXE -Dpnc_map_EXPORTS  -g -o CMakeFiles\\pnc_map.dir\\pnc_map.cpp.obj -c \"C:\\Users\\31869\\Desktop\\Robot_Path_ Trajectory\\VS Code+mingw+cmake\\cmake_planning_demo_04\\src\\pnc_map\\pnc_map.cpp\"",
+  "file": "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/src/pnc_map/pnc_map.cpp",
+  "output": "src/pnc_map/CMakeFiles/pnc_map.dir/pnc_map.cpp.obj"
+},
+{
+  "directory": "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/build/src/process",
+  "command": "C:\\Users\\31869\\Desktop\\soft\\MICROS~1\\mingw64\\bin\\G__~1.EXE -Dprocess_EXPORTS @CMakeFiles/process.dir/includes_CXX.rsp -g -o CMakeFiles\\process.dir\\process.cpp.obj -c \"C:\\Users\\31869\\Desktop\\Robot_Path_ Trajectory\\VS Code+mingw+cmake\\cmake_planning_demo_04\\src\\process\\process.cpp\"",
+  "file": "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/src/process/process.cpp",
+  "output": "src/process/CMakeFiles/process.dir/process.cpp.obj"
+}
+]

@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ with G++",
+            "type": "shell",
+            "command": "C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-I ${workspaceFolder}/src/process/",
+                "-I ${workspaceFolder}/src/pnc_map/",
+                "-I C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/include/",
+                "-I C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/opt/include/",
+                "-std=c++17",
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "生成c++项目文件"
+        },
+        {
+            "label": "Build C with GCC",
+            "type": "shell",
+            "command": "C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/bin/gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-I ${workspaceFolder}/src/",
+                "-I C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/include/",
+                "-I C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/opt/include/",
+                "-std=c17",
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "生成c项目文件"
+        }
+    ]
+}
