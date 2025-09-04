@@ -4,21 +4,40 @@
         {
             "label": "Build C++ with G++",
             "type": "shell",
-            "command": "C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/bin/g++.exe",
+            "command": "D:/mingw64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${workspaceFolder}/src/planning_main.cpp",
+                "${workspaceFolder}/src/process/process.cpp",
+                "${workspaceFolder}/src/pnc_map/pnc_map.cpp",
+                "${workspaceFolder}/src/show_result/show_result.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe",
-                "-I ${workspaceFolder}/src/process/",
-                "-I ${workspaceFolder}/src/pnc_map/",
-                "-I C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/include/",
-                "-I C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/opt/include/",
+                "${workspaceFolder}/src/planning_main.exe",
+                "-I",
+                "${workspaceFolder}/src/process",
+                "-I",
+                "${workspaceFolder}/src/pnc_map",
+                "-I",
+                "${workspaceFolder}/src/show_result",
+                "-I",
+                "D:/mingw64/include",
+                "-I",
+                "D:/mingw64/opt/include",
+                "-I",
+                "D:/mingw64/x86_64-w64-mingw32/include",
                 "-std=c++17",
                 "-Wall",
                 "-Wextra",
-                "-Wpedantic"
+                "-Wpedantic",
+                "-leasyx",
+                "-lgdi32",
+                "-limm32",
+                "-lmsimg32",
+                "-lole32",
+                "-loleaut32",
+                "-lwinmm",
+                "-luuid"
             ],
             "group": "build",
             "problemMatcher": [
@@ -29,7 +48,7 @@
         {
             "label": "Build C with GCC",
             "type": "shell",
-            "command": "C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/bin/gcc.exe",
+            "command": "D:/mingw64/bin/gcc.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -37,8 +56,8 @@
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.exe",
                 "-I ${workspaceFolder}/src/",
-                "-I C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/include/",
-                "-I C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/opt/include/",
+                "-I D:/mingw64/include/",
+                "-I D:/mingw64/opt/include/",
                 "-std=c17",
                 "-Wall",
                 "-Wextra",
@@ -49,6 +68,29 @@
                 "$gcc"
             ],
             "detail": "生成c项目文件"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe 生成活动文件",
+            "command": "D:/mingw64/bin/gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "D:/mingw64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
         }
     ]
 }

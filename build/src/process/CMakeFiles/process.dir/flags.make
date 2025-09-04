@@ -6,5 +6,5 @@ CXX_DEFINES = -Dprocess_EXPORTS
 
 CXX_INCLUDES = @CMakeFiles/process.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g
+CXX_FLAGS = 
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/bin/libprocess.dll"
-  "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/bin/libprocess.dll.manifest"
-  "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/bin/libprocess.pdb"
+  "C:/Users/31869/Desktop/Robot_Path_Trajectory/VSCode+mingw64+cmake/cmake_planning_demo_04/bin/libprocess.dll"
+  "C:/Users/31869/Desktop/Robot_Path_Trajectory/VSCode+mingw64+cmake/cmake_planning_demo_04/bin/libprocess.dll.manifest"
+  "C:/Users/31869/Desktop/Robot_Path_Trajectory/VSCode+mingw64+cmake/cmake_planning_demo_04/bin/libprocess.pdb"
   "CMakeFiles/process.dir/process.cpp.obj"
   "CMakeFiles/process.dir/process.cpp.obj.d"
   "libprocess.dll.a"

@@ -6,5 +6,5 @@ CXX_DEFINES = -Dpnc_map_EXPORTS
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -g
+CXX_FLAGS = 
 

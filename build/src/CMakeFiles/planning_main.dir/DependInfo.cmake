@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo_04/src/planning_main.cpp" "src/CMakeFiles/planning_main.dir/planning_main.cpp.obj" "gcc" "src/CMakeFiles/planning_main.dir/planning_main.cpp.obj.d"
+  "C:/Users/31869/Desktop/Robot_Path_Trajectory/VSCode+mingw64+cmake/cmake_planning_demo_04/src/planning_main.cpp" "src/CMakeFiles/planning_main.dir/planning_main.cpp.obj" "gcc" "src/CMakeFiles/planning_main.dir/planning_main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
